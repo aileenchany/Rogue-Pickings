@@ -1,0 +1,174 @@
+/*  ********** BASE STYLES ********** */
+
+body {
+  color: #000000;
+  background: #ffffff;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 20px;
+  width: 1200px;
+}
+
+h1,
+h2,
+h3,
+nav,
+footer {
+  text-transform: uppercase;
+}
+
+h2,
+#rogue {
+  color: #77a466;
+}
+
+/*  ********** HEADER - (h1 + Navigation ) ********** */
+
+h1 {
+  font-size: 30px;
+}
+
+header {
+  display: block;
+  margin-bottom: 15px;
+  overflow: auto;
+  width: 100%;
+}
+
+#logo {
+  width: 300px;
+}
+
+#logo,
+nav {
+  float: left;
+  padding-top: 4px;
+}
+
+nav {
+  margin-left: 325px;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 15px 0 5px;
+}
+
+nav ul li a:hover {
+  color: grey;
+}
+
+/* ********** ABOUT SECTION - (img + h2 + p ) ********** */
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#about {
+  padding-bottom: 15px;
+}
+
+#about p {
+  line-height: 1.5em;
+}
+
+#hero-img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+/*  ********** BOTTOM SECTION --- ALL --- ********** */
+
+h3 {
+  font-size: 12px;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  margin-top: 0%;
+}
+
+div .third-section {
+  float: left;
+}
+
+/*  ********** BOTTOM SECTION --- MENU --- ********** */
+
+ul li a {
+  color: #77a466;
+  line-height: 2.25em;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#bottom-section {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  overflow: auto;
+}
+
+#menu {
+  padding-inline-end: 130px;
+  padding-top: 25px;
+}
+
+#menu ul li a:hover {
+  color: grey;
+}
+
+#specials {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#specials li {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+/*  ********** BOTTOM SECTION --- REVIEWS --- ********** */
+
+#reviews {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 25px 30px 20px 30px;
+}
+
+#reviews p {
+  margin-bottom: 0;
+  line-height: 1.4em;
+}
+
+/*  ********** BOTTOM SECTION --- CONATCT US --- ********** */
+
+#contact-us {
+  line-height: 1.6em;
+  padding-inline-start: 30px;
+  padding-top: 25px;
+}
+
+/*  ********** BOTTOM SECTION --- FOOTER --- ********** */
+
+footer div {
+  clear: both;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+  padding: 5px;
+  text-align: center;
+  word-spacing: 1px;
+}
+
+#highlight {
+  color: #77a466;
+  font-family: "Galada", cursive;
+  text-transform: lowercase;
+}
